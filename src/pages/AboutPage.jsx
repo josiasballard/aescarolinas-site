@@ -88,7 +88,7 @@ function AboutPage() {
                 className="order-2 md:order-1"
               >
                 <img 
-                  src="/images/michael-chavez-remodel-1.JPEG" 
+                  src="/images/michael-chavez-remodel-1.jpg" 
                   alt="Licensed electrician Michael Chavez performing professional electrical remodel services in Swansboro, NC"
                   className="rounded-2xl shadow-lg w-full"
                 />
