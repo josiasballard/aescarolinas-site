@@ -22,6 +22,7 @@
 	"next-themes": "latest",
 	"clsx": "latest",
 	"@radix-ui/react-slot": "latest",
+	"class-variance-authority": "latest",
 	"sonner": "latest"
   },
   "devDependencies": {
