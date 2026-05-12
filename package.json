@@ -19,7 +19,9 @@
     "framer-motion": "latest",
     "lucide-react": "latest",
     "tailwindcss-animate": "latest",
-	"next-themes": "latest"
+	"next-themes": "latest",
+	"clsx": "latest",
+	"sonner": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
