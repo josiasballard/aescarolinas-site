@@ -18,7 +18,8 @@
     "react-helmet": "latest",
     "framer-motion": "latest",
     "lucide-react": "latest",
-    "tailwindcss-animate": "latest"
+    "tailwindcss-animate": "latest",
+	"next-themes": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
