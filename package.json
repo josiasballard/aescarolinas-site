@@ -21,6 +21,7 @@
     "tailwindcss-animate": "latest",
 	"next-themes": "latest",
 	"clsx": "latest",
+	"@radix-ui/react-slot": "latest",
 	"sonner": "latest"
   },
   "devDependencies": {
