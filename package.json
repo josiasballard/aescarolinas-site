@@ -19,11 +19,12 @@
     "framer-motion": "latest",
     "lucide-react": "latest",
     "tailwindcss-animate": "latest",
-	"next-themes": "latest",
-	"clsx": "latest",
-	"@radix-ui/react-slot": "latest",
-	"class-variance-authority": "latest",
-	"sonner": "latest"
+	  "next-themes": "latest",
+	  "clsx": "latest",
+	  "@radix-ui/react-slot": "latest",
+	  "class-variance-authority": "latest",
+	  "tailwind-merge": "latest",
+	  "sonner": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
