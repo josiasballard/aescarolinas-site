@@ -8,7 +8,7 @@ import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import TestimonialCard from '@/components/TestimonialCard.jsx';
 function HomePage() {
-  const testimonials = [{
+  const testimonials = [/* {
     name: 'Maya Chen',
     location: 'Emerald Isle, NC',
     rating: 5,
@@ -28,7 +28,7 @@ function HomePage() {
     location: 'Hubert, NC',
     rating: 5,
     review: 'Best electrician we have worked with. Fixed a tricky wiring issue that two other companies could not diagnose. Professional service at a reasonable rate.'
-  }];
+  } */];
   return <>
       <Helmet>
         <title>Advanced Electrical Solutions | Licensed Electricians</title>
