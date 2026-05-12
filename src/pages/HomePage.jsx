@@ -40,7 +40,7 @@ function HomePage() {
       <main>
         <section className="relative min-h-[100dvh] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <img src="/images/dock-swansboro.JPEG" alt="Swansboro, NC" className="w-full h-full object-cover" />
+            <img src="/images/dock-swansboro.jpg" alt="Swansboro, NC" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40"></div>
           </div>
 
