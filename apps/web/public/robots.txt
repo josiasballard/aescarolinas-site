@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aescarolinas.com/sitemap.xml
