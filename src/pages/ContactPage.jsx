@@ -79,7 +79,7 @@ function ContactPage() {
                           (910) 382-9513
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
-                          Available for emergency calls 24/7
+                          Available for emergency calls Monday - Saturday
                         </p>
                       </div>
                     </div>
@@ -91,7 +91,7 @@ function ContactPage() {
                       <div>
                         <p className="font-semibold mb-1">Email</p>
                         <a href="mailto:info@advancedelectrical.com" className="text-muted-foreground hover:text-primary transition-colors">
-                          info@advancedelectrical.com
+                          aelectricalsolutions@outlook.com
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
                           We respond within 24 hours
@@ -106,9 +106,8 @@ function ContactPage() {
                       <div>
                         <p className="font-semibold mb-1">Business hours</p>
                         <div className="text-muted-foreground space-y-1">
-                          <p>Monday - Friday: 7am - 6pm</p>
-                          <p>Saturday: 8am - 2pm</p>
-                          <p>Sunday: Emergency only</p>
+                          <p>Monday - Friday: 6:30am - 3:30pm</p>
+                          <p>Saturday: Closed</p>
                         </div>
                       </div>
                     </div>
@@ -144,7 +143,7 @@ function ContactPage() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Need immediate assistance?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-                For urgent electrical issues or emergencies, call us directly. We offer same-day service for emergency repairs.
+                For urgent electrical issues or emergencies, call us directly.
               </p>
               <a href="tel:+19103829513" className="inline-block">
                 <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200 active:scale-[0.98] gap-2 inline-flex items-center">

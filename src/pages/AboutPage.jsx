@@ -46,7 +46,7 @@ function AboutPage() {
                 <h2 className="text-3xl font-bold mb-6">Our story</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Advanced Electrical Solutions was founded in 2008 by master electrician James Thompson, who saw a need for reliable, professional electrical services in our local community. What started as a one-person operation has grown into a trusted team of licensed electricians serving homeowners and businesses throughout the region.
+                    Advanced Electrical Solutions was founded in 2006 by Michael Chavez, who saw a need for reliable, professional electrical services in our local community. What started as a one-person operation has grown into a trusted team of licensed electricians serving homeowners and businesses throughout the region.
                   </p>
                   <p>
                     We built our reputation on quality workmanship, transparent pricing, and exceptional customer service. Every project, whether a simple outlet repair or a complete commercial rewire, receives the same attention to detail and commitment to safety.
@@ -66,9 +66,9 @@ function AboutPage() {
               >
                 {[
                   { icon: Shield, label: 'Licensed & insured', value: 'NC License #27849' },
-                  { icon: Award, label: 'Years in business', value: '18 years' },
-                  { icon: Users, label: 'Projects completed', value: '2,847+' },
-                  { icon: MapPin, label: 'Service area', value: 'Local Region' }
+                  { icon: Award, label: 'Years in business', value: '20+ years' },
+                  { icon: Users, label: 'Projects completed', value: '200+' },
+                  { icon: MapPin, label: 'Service area', value: 'Coastal Carolina' }
                 ].map((stat, index) => (
                   <div key={index} className="bg-muted rounded-xl p-6">
                     <stat.icon className="w-8 h-8 text-primary mb-3" />
@@ -106,7 +106,7 @@ function AboutPage() {
                   {[
                     {
                       title: 'Licensed professionals',
-                      description: 'All our electricians are fully licensed, background-checked, and continuously trained on the latest electrical codes and safety standards.'
+                      description: 'All of our electricians are fully licensed, background-checked, and continuously trained on the latest electrical codes and safety standards.'
                     },
                     {
                       title: 'Transparent pricing',

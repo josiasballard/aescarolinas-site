@@ -12,7 +12,7 @@ function Footer() {
               <span className="font-semibold">Advanced Electrical Solutions</span>
             </Link>
             <p className="text-sm text-primary-foreground/80 leading-relaxed">
-              Licensed and insured electrical contractor serving Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and the surrounding areas with professional service since 2008.
+              Licensed and insured electrical contractor serving Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and the surrounding areas with professional service since 2006.
             </p>
           </div>
 

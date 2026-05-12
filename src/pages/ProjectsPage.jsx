@@ -8,7 +8,7 @@ import ProjectCard from '@/components/ProjectCard.jsx';
 
 function ProjectsPage() {
   const projects = [
-    {
+   /*  {
       image: 'https://images.unsplash.com/photo-1654692623770-7b4f39a94783',
       title: 'Residential panel upgrade',
       description: 'Complete 200-amp electrical panel upgrade for a coastal home in Emerald Isle. Replaced outdated 100-amp panel with modern circuit breakers and whole-house surge protection.',
@@ -37,7 +37,7 @@ function ProjectsPage() {
       title: 'Kitchen remodel electrical',
       description: 'Complete electrical upgrade for a kitchen renovation in Pine Knoll Shores. Added dedicated appliance circuits, under-cabinet lighting, and pendant fixture installation.',
       category: 'Residential'
-    }
+    } */
   ];
 
   return (
