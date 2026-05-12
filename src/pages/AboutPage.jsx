@@ -89,8 +89,8 @@ function AboutPage() {
                 className="order-2 md:order-1"
               >
                 <img 
-                  src="https://images.unsplash.com/photo-1689798889867-67c2b1794743" 
-                  alt="Licensed electrician performing professional electrical panel installation"
+                  src="/images/Michael Chavez Remodel #1.JPEG" 
+                  alt="Licensed electrician Michael Chavez performing professional electrical remodel services in Swansboro, NC"
                   className="rounded-2xl shadow-lg w-full"
                 />
               </motion.div>

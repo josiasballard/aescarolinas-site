@@ -106,15 +106,15 @@ function HomePage() {
               {[{
               icon: Shield,
               title: 'Licensed & insured',
-              description: 'Fully licensed NC electrical contractors with comprehensive liability insurance for your protection and peace of mind.'
+              description: 'Fully licensed NC electrical contractor with comprehensive liability insurance for your protection and peace of mind.'
             }, {
               icon: Clock,
               title: 'Same-day service',
               description: 'Emergency electrical repairs available with same-day response for urgent issues throughout our service area.'
             }, {
               icon: Zap,
-              title: '18 years experience',
-              description: 'Serving our community since 2008 with expert residential and commercial electrical solutions.'
+              title: '20+ years experience',
+              description: 'Serving our community since 2006 with expert residential and commercial electrical solutions.'
             }].map((feature, index) => <motion.div key={index} initial={{
               opacity: 0,
               y: 20
