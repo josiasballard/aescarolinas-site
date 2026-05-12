@@ -28,7 +28,7 @@ function AboutPage() {
                 About Advanced Electrical Solutions
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Your trusted electrical partner serving Swansboro, Hubert, Jacksonville, and surrounding areas since 2008
+                Your trusted electrical partner serving Swansboro, Hubert, Jacksonville, and surrounding areas since 2006
               </p>
             </motion.div>
           </div>
