@@ -5,7 +5,9 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import emailjs from '@emailjs/browser';
 import { toast } from 'sonner';
+
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -28,7 +30,7 @@ function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (!formData.name || !formData.email || !formData.phone || !formData.serviceType || !formData.message) {
       toast.error('Please fill in all required fields');
       return;
@@ -42,20 +44,23 @@ function ContactForm() {
 
     setIsSubmitting(true);
 
-    try {
-      const submissions = JSON.parse(localStorage.getItem('contactSubmissions') || '[]');
-      const newSubmission = {
-        ...formData,
-        timestamp: new Date().toISOString(),
-        id: Date.now()
-      };
-      submissions.push(newSubmission);
-      localStorage.setItem('contactSubmissions', JSON.stringify(submissions));
 
-      await new Promise(resolve => setTimeout(resolve, 1000));
+    try {
+      await emailjs.send(
+        'service_kbqkwfc',
+        'template_imlx7l7',
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          serviceType: formData.serviceType,
+          message: formData.message,
+        },
+        'PGK-Dk3v96eib3tN2'
+      );
 
       toast.success('Message sent successfully. We will contact you soon.');
-      
+
       setFormData({
         name: '',
         email: '',
@@ -63,10 +68,9 @@ function ContactForm() {
         serviceType: '',
         message: ''
       });
+
     } catch (error) {
       toast.error('Failed to send message. Please try again.');
-    } finally {
-      setIsSubmitting(false);
     }
   };
 
@@ -150,8 +154,8 @@ function ContactForm() {
         />
       </div>
 
-      <Button 
-        type="submit" 
+      <Button
+        type="submit"
         size="lg"
         disabled={isSubmitting}
         className="w-full md:w-auto bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-200 active:scale-[0.98]"
