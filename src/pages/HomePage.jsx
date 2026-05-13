@@ -194,7 +194,7 @@ function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link to="/contact">
-                  <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 transition-all duration-200 active:scale-[0.98] gap-2">
+                  <Button size="lg" className="bg-[#8bb974] text-white hover:bg-[#7aa563] hover:text-white transition-all duration-200 active:scale-[0.98] gap-2">
                     Request a quote
                     <ArrowRight className="w-4 h-4" />
                   </Button>
