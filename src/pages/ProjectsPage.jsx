@@ -99,9 +99,9 @@ function ProjectsPage() {
                 Whether you need a simple repair or a complete electrical installation, we are here to help. Contact us for a free consultation and estimate.
               </p>
               <a href="tel:+19105551234" className="inline-block">
-                <Button size="lg" className="bg-[#8bb974] text-white hover:bg-[#7aa563] hover:text-white transition-all duration-200 active:scale-[0.98] gap-2">
+                <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200 active:scale-[0.98]">
                   Call (910) 555-1234
-                </Button>
+                </button>
               </a>
             </motion.div>
           </div>
