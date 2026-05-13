@@ -146,10 +146,10 @@ function ContactPage() {
                 For urgent electrical issues or emergencies, call us directly.
               </p>
               <a href="tel:+19103829513" className="inline-block">
-                <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200 active:scale-[0.98] gap-2 inline-flex items-center">
+                <Button size="lg" className="bg-[#8bb974] text-white hover:bg-[#7aa563] hover:text-white transition-all duration-200 active:scale-[0.98] gap-2 inline-flex items-center">
                   <Phone className="w-4 h-4" />
                   Call (910) 382-9513
-                </button>
+                </Button>
               </a>
             </motion.div>
           </div>
