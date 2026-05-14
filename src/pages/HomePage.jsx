@@ -150,7 +150,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div initial={{
             opacity: 0,
@@ -186,7 +186,7 @@ function HomePage() {
             </motion.div>)}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
