@@ -23,16 +23,18 @@ function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
-          
+
           {/* Left: Logo */}
           <div className="flex flex-1 items-center justify-start">
             <Link to="/" className="flex items-center gap-2 shrink-0">
-              <img 
-                src="https://horizons-cdn.hostinger.com/426f67e7-a8d6-4d4b-9cb8-513116ffb7c0/961ff32daa64acff76102d4c636edb48.png" 
+              <img
+                src="https://horizons-cdn.hostinger.com/426f67e7-a8d6-4d4b-9cb8-513116ffb7c0/961ff32daa64acff76102d4c636edb48.png"
                 alt="Advanced Electrical Solutions logo"
                 className="h-8 sm:h-10 w-auto"
               />
-              <span className="hidden sm:inline font-semibold text-sm lg:text-base">Advanced Electrical Solutions</span>
+              <span className="inline font-semibold text-xs sm:text-sm lg:text-base leading-tight">
+                Advanced Electrical Solutions
+              </span>
             </Link>
           </div>
 
@@ -42,11 +44,10 @@ function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${
-                  isActive(link.path)
+                className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${isActive(link.path)
                     ? 'text-primary bg-primary/10'
                     : 'text-muted-foreground hover:text-foreground hover:bg-muted'
-                }`}
+                  }`}
               >
                 {link.label}
               </Link>
@@ -55,8 +56,8 @@ function Header() {
 
           {/* Right: Contact & Mobile Menu */}
           <div className="flex flex-1 items-center justify-end gap-3">
-            <a 
-              href="tel:+19103829513" 
+            <a
+              href="tel:+19103829513"
               className="hidden lg:flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
             >
               <Phone className="w-4 h-4" />
@@ -83,16 +84,15 @@ function Header() {
                       key={link.path}
                       to={link.path}
                       onClick={() => setIsOpen(false)}
-                      className={`px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 ${
-                        isActive(link.path)
+                      className={`px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 ${isActive(link.path)
                           ? 'text-primary bg-primary/10'
                           : 'text-muted-foreground hover:text-foreground hover:bg-muted'
-                      }`}
+                        }`}
                     >
                       {link.label}
                     </Link>
                   ))}
-                  <a 
+                  <a
                     href="tel:+19103829513"
                     className="mt-4 flex items-center justify-center gap-2 px-4 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200"
                   >
