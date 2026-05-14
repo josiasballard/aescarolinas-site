@@ -9,8 +9,14 @@ function AboutPage() {
   return (
     <>
       <Helmet>
-        <title>About Us | Advanced Electrical Solutions</title>
-        <meta name="description" content="Learn about Advanced Electrical Solutions - licensed electricians serving Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and surrounding areas since 2008 with professional residential and commercial electrical services." />
+        <title>
+          About | Advanced Electrical Solutions
+        </title>
+
+        <meta
+          name="description"
+          content="Learn more about Advanced Electrical Solutions and licensed electrician Michael Chavez. Serving Swansboro, Hubert, Jacksonville, Emerald Isle, Cedar Point, and surrounding eastern North Carolina areas with residential and commercial electrical services."
+        />
       </Helmet>
 
       <Header />
@@ -28,7 +34,7 @@ function AboutPage() {
                 About Advanced Electrical Solutions
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Your trusted electrical partner serving Swansboro, Hubert, Jacksonville, and surrounding areas since 2006
+                Over 20 years of residential and commercial electrical experience serving North Carolina and South Dakota.
               </p>
             </motion.div>
           </div>
@@ -46,13 +52,15 @@ function AboutPage() {
                 <h2 className="text-3xl font-bold mb-6">Our story</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Advanced Electrical Solutions was founded in 2006 by Michael Chavez, who saw a need for reliable, professional electrical services in our local community. What started as a one-person operation has grown into a trusted team of licensed electricians serving homeowners and businesses throughout the region.
+                    Advanced Electrical Solutions is owned and operated by licensed electrician Michael Chavez, who has worked in the electrical industry for over 20 years. Michael originally operated an electrical business in North Carolina before relocating to South Dakota, where he continued serving residential and commercial customers for years through Advanced Electrical Solutions.
                   </p>
+
                   <p>
-                    We built our reputation on quality workmanship, transparent pricing, and exceptional customer service. Every project, whether a simple outlet repair or a complete commercial rewire, receives the same attention to detail and commitment to safety.
+                    After years of building trusted relationships and completing electrical projects throughout South Dakota, AES is now returning to eastern North Carolina to continue providing dependable electrical services for homes, businesses, remodels, lighting, service upgrades, troubleshooting, and new construction projects.
                   </p>
+
                   <p>
-                    Today, we are proud to be one of the most trusted electrical contractors in Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and surrounding areas. Our team brings decades of combined experience to every job, ensuring your electrical systems are safe, efficient, and built to last.
+                    Advanced Electrical Solutions is built on honest communication, reliable workmanship, fair pricing, and treating customers the right way. Every project receives careful attention to safety, code compliance, and long-term quality.
                   </p>
                 </div>
               </motion.div>
@@ -66,8 +74,8 @@ function AboutPage() {
               >
                 {[
                   { icon: Shield, label: 'Licensed & insured', value: 'NC License #27849' },
-                  { icon: Award, label: 'Years in business', value: '20+ years' },
-                  { icon: Users, label: 'Projects completed', value: '200+' },
+                  { icon: Award, label: 'Industry experience', value: '20+ years' },
+                  { icon: Users, label: 'Projects completed', value: '1,000+' },
                   { icon: MapPin, label: 'Service area', value: 'Coastal Carolina' }
                 ].map((stat, index) => (
                   <div key={index} className="bg-muted rounded-xl p-6">
@@ -109,7 +117,7 @@ function AboutPage() {
                   {[
                     {
                       title: 'Licensed professionals',
-                      description: 'All of our electricians are fully licensed, background-checked, and continuously trained on the latest electrical codes and safety standards.'
+                      description: 'Licensed electrical work completed with attention to safety, code compliance, and long-term reliability.'
                     },
                     {
                       title: 'Transparent pricing',
