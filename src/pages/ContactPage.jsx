@@ -113,7 +113,7 @@ function ContactPage() {
                         <p className="font-semibold mb-1">Business hours</p>
                         <div className="text-muted-foreground space-y-1">
                           <p>Monday - Friday: 6:30am - 3:30pm</p>
-                          <p>Saturday: Closed</p>
+                          <p>Saturday & Sunday: Closed</p>
                         </div>
                       </div>
                     </div>
