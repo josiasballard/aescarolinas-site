@@ -8,36 +8,36 @@ import ProjectCard from '@/components/ProjectCard.jsx';
 
 function ProjectsPage() {
   const projects = [
-   /*  {
-      image: 'https://images.unsplash.com/photo-1654692623770-7b4f39a94783',
-      title: 'Residential panel upgrade',
-      description: 'Complete 200-amp electrical panel upgrade for a coastal home in Emerald Isle. Replaced outdated 100-amp panel with modern circuit breakers and whole-house surge protection.',
-      category: 'Residential'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1544387525-d3d4b6e1fc1d',
-      title: 'Commercial office installation',
-      description: 'New electrical installation for a 3,200 sq ft commercial office space in Swansboro. Included LED lighting, data cabling, and dedicated circuits for office equipment.',
-      category: 'Commercial'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1575747107021-4772b753de48',
-      title: 'Retail space rewiring',
-      description: 'Complete electrical rewiring for a retail storefront in Cape Carteret. Updated all circuits to current code, installed track lighting, and added dedicated POS circuits.',
-      category: 'Commercial'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1649164236842-0967354347be',
-      title: 'Custom lighting installation',
-      description: 'Designer lighting installation for a waterfront home in Atlantic Beach. Featured recessed LED lighting, under-cabinet lighting, and outdoor landscape lighting system.',
-      category: 'Residential'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1478882456710-0f4951dd0e92',
-      title: 'Kitchen remodel electrical',
-      description: 'Complete electrical upgrade for a kitchen renovation in Pine Knoll Shores. Added dedicated appliance circuits, under-cabinet lighting, and pendant fixture installation.',
-      category: 'Residential'
-    } */
+    /*  {
+       image: 'https://images.unsplash.com/photo-1654692623770-7b4f39a94783',
+       title: 'Residential panel upgrade',
+       description: 'Complete 200-amp electrical panel upgrade for a coastal home in Emerald Isle. Replaced outdated 100-amp panel with modern circuit breakers and whole-house surge protection.',
+       category: 'Residential'
+     },
+     {
+       image: 'https://images.unsplash.com/photo-1544387525-d3d4b6e1fc1d',
+       title: 'Commercial office installation',
+       description: 'New electrical installation for a 3,200 sq ft commercial office space in Swansboro. Included LED lighting, data cabling, and dedicated circuits for office equipment.',
+       category: 'Commercial'
+     },
+     {
+       image: 'https://images.unsplash.com/photo-1575747107021-4772b753de48',
+       title: 'Retail space rewiring',
+       description: 'Complete electrical rewiring for a retail storefront in Cape Carteret. Updated all circuits to current code, installed track lighting, and added dedicated POS circuits.',
+       category: 'Commercial'
+     },
+     {
+       image: 'https://images.unsplash.com/photo-1649164236842-0967354347be',
+       title: 'Custom lighting installation',
+       description: 'Designer lighting installation for a waterfront home in Atlantic Beach. Featured recessed LED lighting, under-cabinet lighting, and outdoor landscape lighting system.',
+       category: 'Residential'
+     },
+     {
+       image: 'https://images.unsplash.com/photo-1478882456710-0f4951dd0e92',
+       title: 'Kitchen remodel electrical',
+       description: 'Complete electrical upgrade for a kitchen renovation in Pine Knoll Shores. Added dedicated appliance circuits, under-cabinet lighting, and pendant fixture installation.',
+       category: 'Residential'
+     } */
   ];
 
   return (
@@ -62,13 +62,13 @@ function ProjectsPage() {
                 Our completed projects
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A showcase of our recent residential and commercial electrical work throughout coastal North Carolina
+                Examples of residential and commercial electrical work completed by Advanced Electrical Solutions, including remodels, lighting, panel upgrades, troubleshooting, and new construction projects.
               </p>
             </motion.div>
           </div>
         </section>
 
-        <section className="py-20">
+        {/* <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {projects.map((project, index) => (
@@ -84,7 +84,17 @@ function ProjectsPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <div className="text-center py-12">
+          <h3 className="text-2xl font-semibold mb-4">
+            Project gallery coming soon
+          </h3>
+
+          <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            Advanced Electrical Solutions is currently preparing a gallery of completed residential and commercial electrical projects from both North Carolina and South Dakota.
+          </p>
+        </div>
 
         <section className="py-20 bg-muted">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -98,9 +108,9 @@ function ProjectsPage() {
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
                 Whether you need a simple repair or a complete electrical installation, we are here to help. Contact us for a free consultation and estimate.
               </p>
-              <a href="tel:+19105551234" className="inline-block">
+              <a href="tel:+19103829513" className="inline-block">
                 <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200 active:scale-[0.98]">
-                  Call (910) 555-1234
+                  Call (910) 382-9513
                 </button>
               </a>
             </motion.div>
