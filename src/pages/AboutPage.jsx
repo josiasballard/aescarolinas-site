@@ -73,7 +73,7 @@ function AboutPage() {
                 className="grid grid-cols-2 gap-6"
               >
                 {[
-                  { icon: Shield, label: 'Licensed & insured', value: 'NC License #27849' },
+                  { icon: Shield, label: 'Licensed & insured', value: 'NC License #26738L' },
                   { icon: Award, label: 'Industry experience', value: '20+ years' },
                   { icon: Users, label: 'Projects completed', value: '1,000+' },
                   { icon: MapPin, label: 'Service area', value: 'Coastal Carolina' }
