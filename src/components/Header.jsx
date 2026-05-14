@@ -28,7 +28,7 @@ function Header() {
           <div className="flex flex-1 items-center justify-start">
             <Link to="/" className="flex items-center gap-2 shrink-0">
               <img
-                src="/images/aes-logo-header.webp"
+                src="/images/aes-logo-inflated.webp"
                 alt="Advanced Electrical Solutions logo"
                 width="160"
                 height="40"
