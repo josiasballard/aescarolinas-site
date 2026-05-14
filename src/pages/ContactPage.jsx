@@ -85,7 +85,7 @@ function ContactPage() {
                           (910) 382-9513
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
-                          Available Monday - Friday, 6:30am - 3:30pm
+                          Available during normal business hours
                         </p>
                       </div>
                     </div>
