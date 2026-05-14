@@ -2,7 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Home, Building2, Lightbulb, Wrench, Hammer, Zap, Gauge } from 'lucide-react';
+import { Home, Building2, Lightbulb, Wrench, Hammer, Zap, Gauge, Anchor } from 'lucide-react';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import ServiceCard from '@/components/ServiceCard.jsx';
@@ -92,14 +92,32 @@ function ServicesPage() {
         'EV charger preparation',
         'Whole-house surge protection'
       ]
+    },
+    {
+      icon: Anchor,
+      title: 'Outdoor and dock electrical',
+      description: 'Electrical services for outdoor spaces, docks, detached buildings, and coastal properties requiring durable, weather-resistant electrical solutions.',
+      benefits: [
+        'Dock power and lighting',
+        'Outdoor receptacles',
+        'Weather-resistant installations',
+        'Landscape lighting',
+        'Detached building power'
+      ]
     }
   ];
 
   return (
     <>
       <Helmet>
-        <title>Electrical Services | Advanced Electrical Solutions</title>
-        <meta name="description" content="Professional residential and commercial electrical services in coastal North Carolina. Licensed electricians for installations, repairs, upgrades, and new construction." />
+        <title>
+          Electrical Services | Advanced Electrical Solutions
+        </title>
+
+        <meta
+          name="description"
+          content="Residential and commercial electrical services in Swansboro, Hubert, Jacksonville, Emerald Isle, Cedar Point, and surrounding eastern North Carolina areas. Electrical repairs, lighting, remodels, panel upgrades, troubleshooting, and new construction."
+        />
       </Helmet>
 
       <Header />
@@ -114,10 +132,10 @@ function ServicesPage() {
               className="max-w-3xl mx-auto text-center"
             >
               <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ letterSpacing: '-0.02em' }}>
-                Professional electrical services
+                Residential & commercial electrical services
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Comprehensive electrical solutions for residential and commercial properties throughout coastal North Carolina
+                Reliable electrical services for homes, businesses, remodels, lighting, troubleshooting, panel upgrades, and new construction projects throughout eastern North Carolina.
               </p>
             </motion.div>
           </div>
@@ -154,9 +172,9 @@ function ServicesPage() {
                 Contact us today for a free estimate on your residential or commercial electrical project.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+19105551234" className="inline-block">
+                <a href="tel:+19103829513" className="inline-block">
                   <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200 active:scale-[0.98]">
-                    Call (910) 555-1234
+                    Call (910) 382-9513
                   </button>
                 </a>
               </div>
