@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Zap, Shield, Clock, MapPin } from 'lucide-react';
+import { ArrowRight, Zap, Shield, BadgeCheck, MapPin } from 'lucide-react';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
 import TestimonialCard from '@/components/TestimonialCard.jsx';
@@ -31,8 +31,14 @@ function HomePage() {
   } */];
   return <>
     <Helmet>
-      <title>Advanced Electrical Solutions | Licensed Electricians</title>
-      <meta name="description" content="Professional electrical services for residential and commercial properties in Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and surrounding areas. Licensed, insured, and trusted since 2008." />
+      <title>
+        Electrician in Swansboro, NC | Advanced Electrical Solutions
+      </title>
+
+      <meta
+        name="description"
+        content="Licensed residential and commercial electrician serving Swansboro, Hubert, Jacksonville, Emerald Isle, Cedar Point, and surrounding eastern North Carolina areas. Electrical repairs, remodels, lighting installation, panel upgrades, and new construction."
+      />
     </Helmet>
 
     <Header />
@@ -64,10 +70,10 @@ function HomePage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6" style={{
               letterSpacing: '-0.02em'
             }}>
-              Professional electrical services for your home and business
+              Licensed residential & commercial electrician serving eastern North Carolina
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-prose">
-              Licensed and insured electricians serving Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and surrounding areas with reliable residential and commercial electrical solutions.
+              Reliable electrical services for homes, remodels, businesses, lighting, service upgrades, troubleshooting, and new construction throughout Swansboro, Hubert, Jacksonville, Emerald Isle, Cedar Point, and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Link to="/contact">
@@ -105,7 +111,7 @@ function HomePage() {
           }} className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Why choose Advanced Electrical Solutions</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Trusted by homeowners and businesses across Swansboro, Jacksonville, Emerald Isle and the surrounding areas
+              Decades of hands-on electrical experience serving homes and businesses throughout eastern North Carolina.
             </p>
           </motion.div>
 
@@ -115,13 +121,13 @@ function HomePage() {
               title: 'Licensed & insured',
               description: 'Fully licensed NC electrical contractor with comprehensive liability insurance for your protection and peace of mind.'
             }, {
-              icon: Clock,
-              title: 'Same-day service',
-              description: 'Emergency electrical repairs available with same-day response for urgent issues throughout our service area.'
+              icon: BadgeCheck,
+              title: 'Reliable service',
+              description: 'Dependable scheduling, honest communication, and quality electrical work for residential and commercial projects.'
             }, {
               icon: Zap,
               title: '20+ years experience',
-              description: 'Serving our community since 2006 with expert residential and commercial electrical solutions.'
+              description: 'Over 20 years of residential and commercial electrical experience, including years serving customers in both North Carolina and South Dakota.'
             }].map((feature, index) => <motion.div key={index} initial={{
               opacity: 0,
               y: 20
