@@ -96,8 +96,8 @@ function ContactPage() {
                       </div>
                       <div>
                         <p className="font-semibold mb-1">Email</p>
-                        <a href="mailto:info@advancedelectricalsolutions.com" className="text-muted-foreground hover:text-primary transition-colors">
-                          info@advancedelectricalsolutions.com
+                        <a href="mailto:aelectricalsolutions@outlook.com" className="text-muted-foreground hover:text-primary transition-colors">
+                          aelectricalsolutions@outlook.com
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
                           We respond within 24 hours
