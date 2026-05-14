@@ -28,11 +28,13 @@ function Header() {
           <div className="flex flex-1 items-center justify-start">
             <Link to="/" className="flex items-center gap-2 shrink-0">
               <img
-                src="/images/aes-logo-inflated.jpg"
+                src="/images/aes-logo-header.webp"
                 alt="Advanced Electrical Solutions logo"
                 width="160"
                 height="40"
                 loading="eager"
+                decoding="sync"
+                fetchPriority="high"
                 className="h-8 sm:h-10 w-auto"
               />
               <span className="inline font-semibold text-xs sm:text-sm lg:text-base leading-tight">
