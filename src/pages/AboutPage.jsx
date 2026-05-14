@@ -87,9 +87,12 @@ function AboutPage() {
                 transition={{ duration: 0.6 }}
                 className="order-2 md:order-1"
               >
-                <img 
-                  src="/images/michael-chavez-remodel-1.jpg" 
+                <img
+                  src="/images/michael-chavez-remodel-1.jpg"
                   alt="Licensed electrician Michael Chavez performing professional electrical remodel services in Swansboro, NC"
+                  width="1200"
+                  height="800"
+                  loading="lazy"
                   className="rounded-2xl shadow-lg w-full"
                 />
               </motion.div>

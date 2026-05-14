@@ -28,9 +28,12 @@ function Header() {
           <div className="flex flex-1 items-center justify-start">
             <Link to="/" className="flex items-center gap-2 shrink-0">
               <img
-                src="https://horizons-cdn.hostinger.com/426f67e7-a8d6-4d4b-9cb8-513116ffb7c0/961ff32daa64acff76102d4c636edb48.png"
-                alt="Advanced Electrical Solutions logo"
-                className="h-8 sm:h-10 w-auto"
+                src="/images/dock-swansboro.jpg"
+                alt="AES electrical work in Swansboro NC"
+                width="1200"
+                height="800"
+                fetchPriority="high"
+                className="absolute inset-0 w-full h-full object-cover"
               />
               <span className="inline font-semibold text-xs sm:text-sm lg:text-base leading-tight">
                 Advanced Electrical Solutions
@@ -45,8 +48,8 @@ function Header() {
                 key={link.path}
                 to={link.path}
                 className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${isActive(link.path)
-                    ? 'text-primary bg-primary/10'
-                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                  ? 'text-primary bg-primary/10'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                   }`}
               >
                 {link.label}
@@ -85,8 +88,8 @@ function Header() {
                       to={link.path}
                       onClick={() => setIsOpen(false)}
                       className={`px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 ${isActive(link.path)
-                          ? 'text-primary bg-primary/10'
-                          : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                        ? 'text-primary bg-primary/10'
+                        : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                         }`}
                     >
                       {link.label}
