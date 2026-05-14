@@ -22,8 +22,14 @@ function ContactPage() {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Advanced Electrical Solutions</title>
-        <meta name="description" content="Contact Advanced Electrical Solutions for professional electrical services in Swansboro, Hubert, Jacksonville, Maysville, Stella, Cedar Point, Emerald Isle, and surrounding areas. Call (910) 382-9513 or request a free quote online." />
+        <title>
+          Contact | Advanced Electrical Solutions
+        </title>
+
+        <meta
+          name="description"
+          content="Contact Advanced Electrical Solutions for residential and commercial electrical services in Swansboro, Hubert, Jacksonville, Emerald Isle, Cedar Point, and surrounding eastern North Carolina areas. Call (910) 382-9513 for a free estimate."
+        />
       </Helmet>
 
       <Header />
@@ -41,7 +47,7 @@ function ContactPage() {
                 Get in touch
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Ready to start your electrical project? Contact us today for a free consultation and estimate.
+                Need electrical work, troubleshooting, lighting, upgrades, or a quote for an upcoming project? Contact Advanced Electrical Solutions today.
               </p>
             </motion.div>
           </div>
@@ -67,7 +73,7 @@ function ContactPage() {
               >
                 <div>
                   <h2 className="text-2xl font-bold mb-6">Contact information</h2>
-                  
+
                   <div className="space-y-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
@@ -79,7 +85,7 @@ function ContactPage() {
                           (910) 382-9513
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
-                          Available for emergency calls Monday - Saturday
+                          Available Monday - Friday, 6:30am - 3:30pm
                         </p>
                       </div>
                     </div>
@@ -90,8 +96,8 @@ function ContactPage() {
                       </div>
                       <div>
                         <p className="font-semibold mb-1">Email</p>
-                        <a href="mailto:info@advancedelectrical.com" className="text-muted-foreground hover:text-primary transition-colors">
-                          aelectricalsolutions@outlook.com
+                        <a href="mailto:info@advancedelectricalsolutions.com" className="text-muted-foreground hover:text-primary transition-colors">
+                          info@advancedelectricalsolutions.com
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
                           We respond within 24 hours
@@ -141,9 +147,9 @@ function ContactPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Need immediate assistance?</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Need electrical assistance?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-                For urgent electrical issues or emergencies, call us directly.
+                Call us directly to discuss your residential or commercial electrical project.
               </p>
               <a href="tel:+19103829513" className="inline-block">
                 <button className="px-6 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all duration-200 active:scale-[0.98] gap-2 inline-flex items-center">
