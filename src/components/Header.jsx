@@ -30,6 +30,9 @@ function Header() {
               <img
                 src="/images/aes-logo-inflated.jpg"
                 alt="Advanced Electrical Solutions logo"
+                width="160"
+                height="40"
+                loading="eager"
                 className="h-8 sm:h-10 w-auto"
               />
               <span className="inline font-semibold text-xs sm:text-sm lg:text-base leading-tight">
@@ -45,8 +48,8 @@ function Header() {
                 key={link.path}
                 to={link.path}
                 className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${isActive(link.path)
-                    ? 'text-primary bg-primary/10'
-                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                  ? 'text-primary bg-primary/10'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                   }`}
               >
                 {link.label}
@@ -85,8 +88,8 @@ function Header() {
                       to={link.path}
                       onClick={() => setIsOpen(false)}
                       className={`px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 ${isActive(link.path)
-                          ? 'text-primary bg-primary/10'
-                          : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                        ? 'text-primary bg-primary/10'
+                        : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                         }`}
                     >
                       {link.label}

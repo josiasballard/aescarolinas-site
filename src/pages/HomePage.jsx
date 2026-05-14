@@ -46,7 +46,7 @@ function HomePage() {
             width="1200"
             height="800"
             fetchPriority="high"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40"></div>
         </div>
